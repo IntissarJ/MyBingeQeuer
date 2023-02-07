@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3932A5E52992AEF3004CDC98 /* BingeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3932A5E42992AEF3004CDC98 /* BingeRow.swift */; };
 		393EF0C22991335B00E51979 /* MyBingeQeuerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393EF0C12991335B00E51979 /* MyBingeQeuerApp.swift */; };
 		393EF0C42991335B00E51979 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393EF0C32991335B00E51979 /* ContentView.swift */; };
 		393EF0C62991335B00E51979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393EF0C52991335B00E51979 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 		393EF0D42991335B00E51979 /* MyBingeQeuerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393EF0D32991335B00E51979 /* MyBingeQeuerTests.swift */; };
 		393EF0DE2991335B00E51979 /* MyBingeQeuerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393EF0DD2991335B00E51979 /* MyBingeQeuerUITests.swift */; };
 		393EF0E02991335B00E51979 /* MyBingeQeuerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393EF0DF2991335B00E51979 /* MyBingeQeuerUITestsLaunchTests.swift */; };
+		3974DA702992B190003CF448 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974DA6F2992B190003CF448 /* Series.swift */; };
+		3974DA772992B833003CF448 /* SeriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974DA762992B833003CF448 /* SeriesList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3932A5E42992AEF3004CDC98 /* BingeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingeRow.swift; sourceTree = "<group>"; };
 		393EF0BE2991335B00E51979 /* MyBingeQeuer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBingeQeuer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		393EF0C12991335B00E51979 /* MyBingeQeuerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBingeQeuerApp.swift; sourceTree = "<group>"; };
 		393EF0C32991335B00E51979 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +49,8 @@
 		393EF0D92991335B00E51979 /* MyBingeQeuerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBingeQeuerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		393EF0DD2991335B00E51979 /* MyBingeQeuerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBingeQeuerUITests.swift; sourceTree = "<group>"; };
 		393EF0DF2991335B00E51979 /* MyBingeQeuerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBingeQeuerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3974DA6F2992B190003CF448 /* Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
+		3974DA762992B833003CF448 /* SeriesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3932A5E22992AEC7004CDC98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3974DA762992B833003CF448 /* SeriesList.swift */,
+				3932A5E32992AED1004CDC98 /* Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3932A5E32992AED1004CDC98 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3932A5E42992AEF3004CDC98 /* BingeRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		393EF0B52991335B00E51979 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +118,8 @@
 		393EF0C02991335B00E51979 /* MyBingeQeuer */ = {
 			isa = PBXGroup;
 			children = (
+				3974DA732992B247003CF448 /* Model */,
+				3932A5E22992AEC7004CDC98 /* View */,
 				393EF0C12991335B00E51979 /* MyBingeQeuerApp.swift */,
 				393EF0C32991335B00E51979 /* ContentView.swift */,
 				393EF0C52991335B00E51979 /* Assets.xcassets */,
@@ -127,6 +152,14 @@
 				393EF0DF2991335B00E51979 /* MyBingeQeuerUITestsLaunchTests.swift */,
 			);
 			path = MyBingeQeuerUITests;
+			sourceTree = "<group>";
+		};
+		3974DA732992B247003CF448 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3974DA6F2992B190003CF448 /* Series.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +293,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				393EF0C42991335B00E51979 /* ContentView.swift in Sources */,
+				3932A5E52992AEF3004CDC98 /* BingeRow.swift in Sources */,
+				3974DA772992B833003CF448 /* SeriesList.swift in Sources */,
+				3974DA702992B190003CF448 /* Series.swift in Sources */,
 				393EF0C22991335B00E51979 /* MyBingeQeuerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,6 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -423,6 +461,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -459,6 +498,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

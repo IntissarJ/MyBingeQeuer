@@ -11,7 +11,7 @@ import SwiftUI
 struct MyBingeQeuerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SeriesList()
         }
     }
 }

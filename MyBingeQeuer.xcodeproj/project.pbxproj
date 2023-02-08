@@ -15,6 +15,7 @@
 		393EF0D42991335B00E51979 /* MyBingeQeuerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393EF0D32991335B00E51979 /* MyBingeQeuerTests.swift */; };
 		393EF0DE2991335B00E51979 /* MyBingeQeuerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393EF0DD2991335B00E51979 /* MyBingeQeuerUITests.swift */; };
 		393EF0E02991335B00E51979 /* MyBingeQeuerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393EF0DF2991335B00E51979 /* MyBingeQeuerUITestsLaunchTests.swift */; };
+		3958CCD72993BA7B0098F864 /* SeriesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3958CCD62993BA7B0098F864 /* SeriesDetail.swift */; };
 		3974DA702992B190003CF448 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974DA6F2992B190003CF448 /* Series.swift */; };
 		3974DA772992B833003CF448 /* SeriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974DA762992B833003CF448 /* SeriesList.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		393EF0D92991335B00E51979 /* MyBingeQeuerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBingeQeuerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		393EF0DD2991335B00E51979 /* MyBingeQeuerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBingeQeuerUITests.swift; sourceTree = "<group>"; };
 		393EF0DF2991335B00E51979 /* MyBingeQeuerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBingeQeuerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3958CCD62993BA7B0098F864 /* SeriesDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesDetail.swift; sourceTree = "<group>"; };
 		3974DA6F2992B190003CF448 /* Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
 		3974DA762992B833003CF448 /* SeriesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +85,7 @@
 			children = (
 				3974DA762992B833003CF448 /* SeriesList.swift */,
 				3932A5E32992AED1004CDC98 /* Components */,
+				3958CCD62993BA7B0098F864 /* SeriesDetail.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				393EF0C42991335B00E51979 /* ContentView.swift in Sources */,
 				3932A5E52992AEF3004CDC98 /* BingeRow.swift in Sources */,
 				3974DA772992B833003CF448 /* SeriesList.swift in Sources */,
+				3958CCD72993BA7B0098F864 /* SeriesDetail.swift in Sources */,
 				3974DA702992B190003CF448 /* Series.swift in Sources */,
 				393EF0C22991335B00E51979 /* MyBingeQeuerApp.swift in Sources */,
 			);

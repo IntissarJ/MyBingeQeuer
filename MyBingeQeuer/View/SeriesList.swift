@@ -11,7 +11,7 @@ struct SeriesList: View {
     var body: some View {
         NavigationView{
             List(seriesSourceList) { series in
-                NavigationLink(destination: BingeRow(series: series)){
+                NavigationLink(destination: SeriesDetail(series: series)){
                     BingeRow(series: series)
                 }
             }

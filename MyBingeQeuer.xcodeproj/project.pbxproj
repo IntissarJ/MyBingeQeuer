@@ -18,6 +18,8 @@
 		3958CCD72993BA7B0098F864 /* SeriesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3958CCD62993BA7B0098F864 /* SeriesDetail.swift */; };
 		3974DA702992B190003CF448 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974DA6F2992B190003CF448 /* Series.swift */; };
 		3974DA772992B833003CF448 /* SeriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974DA762992B833003CF448 /* SeriesList.swift */; };
+		39B419B02994FBC600E3AF51 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B419AF2994FBC600E3AF51 /* CircleImage.swift */; };
+		39B419B22994FBCB00E3AF51 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B419B12994FBCB00E3AF51 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		3958CCD62993BA7B0098F864 /* SeriesDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesDetail.swift; sourceTree = "<group>"; };
 		3974DA6F2992B190003CF448 /* Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
 		3974DA762992B833003CF448 /* SeriesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesList.swift; sourceTree = "<group>"; };
+		39B419AF2994FBC600E3AF51 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleImage.swift; path = ../../../../../Downloads/Code/CircleImage.swift; sourceTree = "<group>"; };
+		39B419B12994FBCB00E3AF51 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = ../../../../../Downloads/Code/MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 		3932A5E32992AED1004CDC98 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				39B419B12994FBCB00E3AF51 /* MapView.swift */,
+				39B419AF2994FBC600E3AF51 /* CircleImage.swift */,
 				3932A5E42992AEF3004CDC98 /* BingeRow.swift */,
 			);
 			path = Components;
@@ -296,8 +302,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				393EF0C42991335B00E51979 /* ContentView.swift in Sources */,
+				39B419B22994FBCB00E3AF51 /* MapView.swift in Sources */,
 				3932A5E52992AEF3004CDC98 /* BingeRow.swift in Sources */,
 				3974DA772992B833003CF448 /* SeriesList.swift in Sources */,
+				39B419B02994FBC600E3AF51 /* CircleImage.swift in Sources */,
 				3958CCD72993BA7B0098F864 /* SeriesDetail.swift in Sources */,
 				3974DA702992B190003CF448 /* Series.swift in Sources */,
 				393EF0C22991335B00E51979 /* MyBingeQeuerApp.swift in Sources */,

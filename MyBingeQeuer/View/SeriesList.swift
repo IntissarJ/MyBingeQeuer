@@ -8,14 +8,24 @@
 import SwiftUI
 
 struct SeriesList: View {
+    @State var SeriesDataList = seriesSourceList
     var body: some View {
         NavigationView{
-            List(seriesSourceList) { series in
-                NavigationLink(destination: SeriesDetail(series: series)){
-                    BingeRow(series: series)
-                }
+            List {
+                ForEach(SeriesDataList, id: \Series.id) {
+                    series in NavigationLink(destination: SeriesDetail(series: series)) {
+                        BingeRow(series: series)
+                    }
+                }.onDelete(perform: delete)
+            }
+            .toolbar {
+                EditButton()
             }
         }
+    }
+    
+    func delete(at offsets: IndexSet) {
+    seriesSourceList.remove(atOffsets: offsets)
     }
 }
 
